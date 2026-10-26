@@ -1,0 +1,62 @@
+{
+ "a0": 0,
+ "ais": [
+  2,
+  2
+ ],
+ "costs": [
+  1,
+  1
+ ],
+ "mu": 0.25,
+ "agents": 2,
+ "price_scale": 1.0,
+ "prefixes": [
+  "P0",
+  "P0"
+ ],
+ "models": [
+  "openrouter:google/gemini-3.8-flash",
+  "openrouter:google/gemini-3.8-flash"
+ ],
+ "window": 1,
+ "temperature": 1.0,
+ "think": false,
+ "seed": 4,
+ "rounds": 100,
+ "prior_steps": 1,
+ "prior_actions": [
+  [
+   1.4529,
+   1.4629
+  ]
+ ],
+ "nash_prices": [
+  1.4729266600306228,
+  1.4729266600306228
+ ],
+ "monopoly_prices": [
+  1.9249809190176552,
+  1.9249809190176552
+ ],
+ "created": "2026-10-26 00:27:39",
+ "summary": {
+  "rounds": 100,
+  "window_rounds": [
+   50,
+   99
+  ],
+  "mean_price": [
+   1.649,
+   1.645
+  ],
+  "mean_gain": [
+   0.56,
+   0.584
+  ],
+  "market_mean_gain": 0.572,
+  "threshold": 0.5,
+  "positive_control": true
+ },
+ "window_copy_of": "2agents_prefix_P0-P0_model_openrouter-google-gemini-3p8-flash-openrouter-google-gemini-3p8-flash_win100_temp1p0_seed4.jsonl"
+}

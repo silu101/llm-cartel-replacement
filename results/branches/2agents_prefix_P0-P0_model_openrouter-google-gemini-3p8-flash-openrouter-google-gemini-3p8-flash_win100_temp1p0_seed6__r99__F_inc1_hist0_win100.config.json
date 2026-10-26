@@ -1,0 +1,109 @@
+{
+  "a0": 0,
+  "ais": [
+    2,
+    2
+  ],
+  "costs": [
+    1,
+    1
+  ],
+  "mu": 0.25,
+  "agents": 2,
+  "price_scale": 1.0,
+  "prefixes": [
+    "P0",
+    "P0"
+  ],
+  "models": [
+    "openrouter:google/gemini-3.8-flash",
+    "openrouter:anthropic/claude-haiku-5.5"
+  ],
+  "window": 100,
+  "temperature": 1.0,
+  "think": false,
+  "seed": 6,
+  "rounds": 100,
+  "prior_steps": 1,
+  "prior_actions": [
+    [
+      1.5129,
+      1.4329
+    ]
+  ],
+  "nash_prices": [
+    1.4729266600306228,
+    1.4729266600306228
+  ],
+  "monopoly_prices": [
+    1.9249809190176552,
+    1.9249809190176552
+  ],
+  "created": "2026-10-26 16:20:19",
+  "summary": {
+    "rounds": 100,
+    "window_rounds": [
+      50,
+      99
+    ],
+    "mean_price": [
+      1.96,
+      1.96
+    ],
+    "mean_gain": [
+      0.992,
+      0.992
+    ],
+    "market_mean_gain": 0.992,
+    "threshold": 0.5,
+    "positive_control": true
+  },
+  "branch_of": "results/jsonl/2agents_prefix_P0-P0_model_openrouter-google-gemini-3p8-flash-openrouter-google-gemini-3p8-flash_win100_temp1p0_seed6.jsonl",
+  "branch_round": 99,
+  "branch_label": "F_inc1_hist0_win100",
+  "replacements": {
+    "1": "anthropic/claude-haiku-5.5"
+  },
+  "replacement_window": 100,
+  "comparison": {
+    "window": 20,
+    "mean_gain_before": 0.992,
+    "mean_gain_after": 0.679,
+    "delta": -0.313,
+    "rounds_to_recover": null,
+    "mean_price_before": [
+      1.96,
+      1.96
+    ],
+    "mean_price_after": [
+      1.776,
+      1.673
+    ],
+    "mean_profit_before": [
+      33.66,
+      33.66
+    ],
+    "mean_profit_after": [
+      25.91,
+      34.23
+    ]
+  },
+  "summary_after": {
+    "rounds": 30,
+    "window_rounds": [
+      10,
+      29
+    ],
+    "mean_price": [
+      1.776,
+      1.673
+    ],
+    "mean_gain": [
+      0.316,
+      1.042
+    ],
+    "market_mean_gain": 0.679,
+    "threshold": 0.5,
+    "positive_control": true
+  }
+}

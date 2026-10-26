@@ -30,7 +30,7 @@ We form emergent pricing cartels among LLM agents (Gemini 3.8 Flash, neutral pro
 
 To recompute the paper's numbers from our logs without any API calls, copy this repo's `results/` folder into `collusion_hackathon/llm-cartel/` and run the analysis commands in section 7 of `COMMANDS.md`.
 
-Models are served through OpenRouter: `google/gemini-3.8-flash`, `openai/gpt-6-luna`, `anthropic/claude-haiku-5.5`, `anthropic/claude-sonnet-5.5`, `deepseek/deepseek-v4.1-flash`. Total API cost was about $70.
+Models are served through OpenRouter: `google/gemini-3.8-flash`, `openai/gpt-6-luna`, `anthropic/claude-haiku-5.5`, `anthropic/claude-sonnet-5.5`, `deepseek/deepseek-v4.1-flash`. Total API cost was about $72.
 
 ## Preexisting code versus sprint work
 

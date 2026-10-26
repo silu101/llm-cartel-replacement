@@ -1,0 +1,111 @@
+{
+  "a0": 0,
+  "ais": [
+    2,
+    2
+  ],
+  "costs": [
+    1,
+    1
+  ],
+  "mu": 0.25,
+  "agents": 2,
+  "price_scale": 1.0,
+  "prefixes": [
+    "P0",
+    "P0"
+  ],
+  "models": [
+    "openrouter:anthropic/claude-haiku-5.5",
+    "openrouter:anthropic/claude-haiku-5.5"
+  ],
+  "window": 1,
+  "temperature": 1.0,
+  "think": false,
+  "seed": 7,
+  "rounds": 100,
+  "prior_steps": 1,
+  "prior_actions": [
+    [
+      1.4729,
+      1.4429
+    ]
+  ],
+  "nash_prices": [
+    1.4729266600306228,
+    1.4729266600306228
+  ],
+  "monopoly_prices": [
+    1.9249809190176552,
+    1.9249809190176552
+  ],
+  "created": "2026-10-26 15:41:51",
+  "summary": {
+    "rounds": 100,
+    "window_rounds": [
+      50,
+      99
+    ],
+    "mean_price": [
+      1.912,
+      1.911
+    ],
+    "mean_gain": [
+      0.995,
+      1.002
+    ],
+    "market_mean_gain": 0.999,
+    "threshold": 0.5,
+    "positive_control": true
+  },
+  "window_copy_of": "2agents_prefix_P0-P0_model_openrouter-google-gemini-3p8-flash-openrouter-google-gemini-3p8-flash_win100_temp1p0_seed7.jsonl",
+  "branch_of": "results/jsonl_window/gemini_P0_seed7_win1.jsonl",
+  "branch_round": 99,
+  "branch_label": "A4w1_theseus_window1",
+  "replacements": {
+    "0": "anthropic/claude-haiku-5.5",
+    "1": "anthropic/claude-haiku-5.5"
+  },
+  "replacement_window": null,
+  "comparison": {
+    "window": 20,
+    "mean_gain_before": 0.999,
+    "mean_gain_after": 0.953,
+    "delta": -0.046,
+    "rounds_to_recover": 20,
+    "mean_price_before": [
+      1.91,
+      1.91
+    ],
+    "mean_price_after": [
+      1.99,
+      1.989
+    ],
+    "mean_profit_before": [
+      33.73,
+      33.73
+    ],
+    "mean_profit_after": [
+      33.18,
+      33.23
+    ]
+  },
+  "summary_after": {
+    "rounds": 50,
+    "window_rounds": [
+      30,
+      49
+    ],
+    "mean_price": [
+      1.99,
+      1.989
+    ],
+    "mean_gain": [
+      0.95,
+      0.955
+    ],
+    "market_mean_gain": 0.953,
+    "threshold": 0.5,
+    "positive_control": true
+  }
+}
